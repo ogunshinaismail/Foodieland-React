@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Foodieland-React/static/css/main.c4e96c99.css",
+    "main.js": "/Foodieland-React/static/js/main.9edea428.js",
+    "static/media/instagram-post-3.png": "/Foodieland-React/static/media/instagram-post-3.01d62ef3b2f4e7f98abe.png",
+    "static/media/instagram-post-2.png": "/Foodieland-React/static/media/instagram-post-2.e146e3a3e576e03482c5.png",
+    "static/media/instagram-post.png": "/Foodieland-React/static/media/instagram-post.acb3c0d286af9eb3d63a.png",
+    "static/media/instagram-post-4.png": "/Foodieland-React/static/media/instagram-post-4.3cf88f50625568336cbf.png",
+    "static/media/heroImg.png": "/Foodieland-React/static/media/heroImg.fb21c07ba586f1eea722.png",
+    "static/media/portrait-chef.png": "/Foodieland-React/static/media/portrait-chef.ea5d03b87f3a6bc4f9c9.png",
+    "static/media/chef.PNG": "/Foodieland-React/static/media/chef.a7a66fc0eb73a3878176.PNG",
+    "static/media/salad-plate.png": "/Foodieland-React/static/media/salad-plate.b6cafe7f6b735697e751.png",
+    "static/media/kisspng-salad.png": "/Foodieland-React/static/media/kisspng-salad.70890156198138459377.png",
+    "static/media/vegan.png": "/Foodieland-React/static/media/vegan.9de3a475adaff352b330.png",
+    "static/media/breakfast.png": "/Foodieland-React/static/media/breakfast.257ba2d51182d601b44f.png",
+    "static/media/meat1.png": "/Foodieland-React/static/media/meat1.23a90843133dba9e8bb9.png",
+    "static/media/lunch.png": "/Foodieland-React/static/media/lunch.79f673372431ecf9f79f.png",
+    "static/media/dessert.png": "/Foodieland-React/static/media/dessert.f2a7af6bd21800dffd83.png",
+    "static/media/chocolate.png": "/Foodieland-React/static/media/chocolate.b5ae1041aef7f6021875.png",
+    "index.html": "/Foodieland-React/index.html",
+    "main.c4e96c99.css.map": "/Foodieland-React/static/css/main.c4e96c99.css.map",
+    "main.9edea428.js.map": "/Foodieland-React/static/js/main.9edea428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4e96c99.css",
+    "static/js/main.9edea428.js"
+  ]
+}
