@@ -1,0 +1,238 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+}
+
+.recipe-details {
+    width: 90%;
+    margin: 2rem auto 9rem auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+.header-left-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 70%;
+    margin: 1rem 0;
+}
+.dish-details {
+    display: flex;
+    gap: 2rem;
+}
+.recipe-name {
+    font-size: 40px;
+}
+.profile-date {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+.profile-date img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.recipe-name-date {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.recipe-chef {
+    font-weight: 600;
+}
+.recipe-date {
+    color: #00000099;
+    font-size: 14px;
+}
+.recipe-det {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+.recipe-det i {
+    font-size: 19px;
+}
+.prep {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.det-header {
+    font-size: 12px;
+    font-weight: 600;
+}
+.det-data {
+    color: #00000099;
+    font-size: 14px;
+}
+.print-share {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.empty-print i {
+    font-size: 19px;
+    padding: 1rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+    margin-bottom: .7rem;
+}
+.print {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.print p {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.nutrition-vid-info {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 2rem;
+    height: 500px;
+    margin: 2rem 0;
+}
+.nutrition-vid {
+    border-radius: 40px;
+    height: 500px;
+}
+.nutrition-vid img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.nutrition-info {
+    background: var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nutri-info {
+    margin: 1rem 0;
+}
+.nutrition-header {
+    margin-bottom: 1rem;
+}
+.nutri {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    padding: .9rem 0;
+}
+.nut-name {
+    color: #00000099;
+    font-size: 14px;
+}
+.unit {
+    font-size: 14px;
+    font-weight: 700;
+}
+.nutrition-base {
+    text-align: center;
+    color: #00000099;
+    font-size: 13px;
+    line-height: 17px;
+}
+.recipe-explanation {
+    margin: 4rem 0;
+    color: #00000099;
+    font-size: 13px;
+    line-height: 24px;
+}
+.recipe-details-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 3rem;
+    width: 100%;
+}
+.ingre {
+    margin: 2rem 0;
+}
+.main-dish {
+    margin: 2rem 0;
+}
+.main-dish h3 {
+    margin: 0 0 1rem 0;
+}
+.check {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.label-ingredient {
+    margin: 0 1rem;
+}
+.label {
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+.direction-desc {
+    margin: 1rem 1.7rem;
+    color: #00000099;
+    font-size: 16px;
+    line-height: 24px;
+}
+.direction {
+    margin: 2rem 0;
+    width: 70%;
+}
+
+/* ============== MEDIA QUERIES ============= */
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .header-left-container {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;       
+    }
+    .dish-details {
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .nutrition-vid-info {
+        grid-template-columns: 100%;
+    }
+    .nutrition-vid-info {
+        height: 100%;
+    }
+    .nutrition-vid {
+        height: 100%;
+    }
+    .nutrition-vid img {
+        height: 100%;
+    }
+    .nutrition-base {
+        margin-top: 4rem;
+    }
+    .recipe-details-content {
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+    .direction {
+        width: 100%;
+    }
+    .label {
+        font-size: 20px;
+    }
+}

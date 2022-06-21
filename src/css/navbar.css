@@ -1,0 +1,180 @@
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eeeeee;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 4rem;
+}
+
+.logo h3 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.modal-menu {
+    width: 100%;
+    position: relative;
+    background: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-menu ul {
+    list-style: none;
+}
+
+.modal-menu ul a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 20px;
+}
+
+.modal-menu ul a li {
+    /* margin: 1rem 0; */
+    width: 100%;
+    padding: 1rem;
+}
+
+.modal-menu ul a li:hover {
+    background: rgb(229, 229, 229);
+}
+
+.modal-social-icon {
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.modal-social-icon i {
+    margin-right: 2rem;
+    font-size: 25px;
+}
+
+.hide-menu-modal {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    margin-right: 3.6rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.menu ul a:hover {
+    color: #e7fafe;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-icon i {
+    margin-right: 2rem;
+    font-size: 20px;
+}
+
+.social-icon i:last-child {
+    margin-right: 0;
+}
+
+
+/* ============== MEDIA QUERIES ============= */
+
+@media only screen and (max-width: 600px) {
+
+    /* NAV */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .social-icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* NAV */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 2rem;
+        }
+    
+        .menu-bar {
+            display: block;
+            font-size: 20px;
+        }
+    
+        .menu {
+            display: none;
+        }
+    
+        .social-icon {
+            display: none;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* NAV */
+    .menu-bar {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu ul a {
+        margin-right: 2rem;
+    }
+
+    .social-icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* NAV */
+    .menu ul a {
+        margin-right: 2rem;
+    }
+
+    .social-icon {
+        display: block;
+    }
+}
+

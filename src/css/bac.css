@@ -1,0 +1,387 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+}
+
+/* BECOME A CHEF */
+.become-a-chef {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bac-right {
+    padding: 0 3rem 0 5rem;
+    position: relative;
+    top: 30%;
+}
+
+.bac-right h2 {
+    font-size: 40px;
+}
+
+.bac-right p {
+    margin-top: 1.5rem auto;
+    color: #00000099;
+    font-size: 16px;
+    line-height: 28px;
+    width: 508px;
+    font-weight: 400;
+}
+
+.bac-right button {
+    margin-top: 3rem;
+    background: var(--black);
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    color: var(--white);
+    font-size: 10px;
+}
+
+.bac-left {
+    position: relative;
+}
+
+.bac-left-img {
+    background: var(--main-gradient);
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.bac-left-img .male-img {
+    width: 100%;
+    position: relative;
+    right: 70px;
+    bottom: 0;
+    top: 4px;
+}
+
+.bac-left-img .bac-vegan {
+    position: relative;
+    top: 270px;
+    left: 530px;
+    width: 70px;
+}
+
+.bac-left-img .bac-onion {
+    position: relative;
+    top: 160px;
+    left: 270px;
+    width: 50px;
+}
+
+.bac-left-img .bac-meat {
+    position: relative;
+    top: 160px;
+    left: 10px;
+    width: 60px;
+}
+
+.bac-left-img .bac-tomatoe {
+    position: relative;
+    top: 500px;
+    right: 210px;
+    width: 40px;
+}
+
+/* ============== MEDIA QUERIES ============= */
+
+@media only screen and (max-width: 600px) {
+    .become-a-chef {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+            gap: 0;
+        }
+    
+        .bac-right {
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+    
+        .bac-right p {
+            width: 100%;
+            margin: 2;
+        }
+    
+        .bac-left {
+            width: 100%;
+            position: relative;
+            background: var(--main-gradient);
+        }
+    
+        .bac-left-img {
+            left: 0;
+        }
+    
+        .bac-left-img .male-img {
+            background: none;
+            width: 100%;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            top: 5px;
+        }
+    
+        .bac-left-img .bac-vegan {
+            display: none;
+        }
+    
+        .bac-left-img .bac-onion {
+            display: none;
+        }
+    
+        .bac-left-img .bac-meat {
+            display: none;
+        }
+    
+        .bac-left-img .bac-tomatoe {
+            display: none;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* BECOME A CHEF */
+    .become-a-chef {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bac-right {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .bac-right p {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .bac-right button {
+        margin-top: -1rem;
+        border: none;
+        padding: 1rem 3rem;
+    }
+
+    .bac-left {
+        width: 100%;
+        position: relative;
+        background: var(--main-gradient);
+    }
+
+    .bac-left-img {
+        left: 0;
+    }
+
+    .bac-left-img .male-img {
+        background: none;
+        width: 100%;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        top: 5px;
+    }
+
+    .bac-left-img .bac-vegan {
+        display: none;
+    }
+
+    .bac-left-img .bac-onion {
+        display: none;
+    }
+
+    .bac-left-img .bac-meat {
+        display: none;
+    }
+
+    .bac-left-img .bac-tomatoe {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* BECOME A CHEF */
+        .become-a-chef {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+    
+        .bac-right {
+            width: 100%;
+            margin: auto;
+            padding: 0 1rem;
+            text-align: left;
+            position: relative;
+            top: 10%;
+        }
+    
+        .bac-right h2 {
+            font-size: 25px;
+        }
+    
+        .bac-right p {
+            width: 100%;
+            margin: 2rem 0;
+        }
+    
+        .bac-right button {
+            margin-top: -1rem;
+            border: none;
+            padding: 1rem 3rem;
+        }
+    
+        .bac-left {
+            width: 100%;
+            position: relative;
+            background: var(--main-gradient);
+        }
+    
+        /* .bac-left-img {
+            left: 0;
+        } */
+        .bac-left-img .male-img {
+            background: none;
+            width: 100%;
+            position: relative;
+            right: 25px;
+            bottom: 0;
+            top: 5px;
+        }
+    
+        .bac-left-img .bac-vegan {
+            display: block;
+            position: absolute;
+            top: 160px;
+            left: 340px;
+            width: 50px;
+        }
+    
+        .bac-left-img .bac-onion {
+            display: block;
+            width: 40px;
+            position: absolute;
+            top: 60px;
+            left: 270px;
+        }
+    
+        .bac-left-img .bac-meat {
+            display: block;
+            width: 50px;
+            position: absolute;
+            top: 60px;
+            left: 40px;
+        }
+    
+        .bac-left-img .bac-tomatoe {
+            display: block;
+            position: absolute;
+            top: 300px;
+            left: -15px;
+            width: 40px;
+        }
+}
+
+@media only screen and (min-width: 992px) {
+    .bac-right {
+            width: 100%;
+            margin: auto;
+            padding: 0 2rem;
+            text-align: left;
+            position: relative;
+            top: 8%;
+        }
+    
+        .bac-right h2 {
+            font-size: 38px;
+        }
+    
+        .bac-right p {
+            width: 100%;
+            margin: 2rem 0;
+        }
+    
+        .bac-left-img .male-img {
+            background: none;
+            width: 100%;
+            position: relative;
+            right: 37px;
+            bottom: 0;
+            top: 5px;
+        }
+    
+        .bac-left-img .bac-vegan {
+            display: block;
+            position: absolute;
+            top: 230px;
+            left: 440px;
+            width: 50px;
+        }
+    
+        .bac-left-img .bac-onion {
+            display: block;
+            width: 40px;
+            position: absolute;
+            top: 60px;
+            left: 340px;
+        }
+    
+        .bac-left-img .bac-meat {
+            display: block;
+            width: 50px;
+            position: absolute;
+            top: 60px;
+            left: 40px;
+        }
+    
+        .bac-left-img .bac-tomatoe {
+            display: block;
+            position: absolute;
+            top: 390px;
+            left: -15px;
+            width: 40px;
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+    .bac-left-img .bac-vegan {
+            display: block;
+            position: absolute;
+            top: 260px;
+            left: 530px;
+            width: 60px;
+        }
+    
+        .bac-left-img .bac-onion {
+            display: block;
+            width: 50px;
+            position: absolute;
+            top: 80px;
+            left: 400px;
+        }
+    
+        .bac-left-img .bac-meat {
+            display: block;
+            width: 60px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+        }
+    
+        .bac-left-img .bac-tomatoe {
+            display: block;
+            position: absolute;
+            top: 430px;
+            left: -15px;
+            width: 50px;
+        }
+}

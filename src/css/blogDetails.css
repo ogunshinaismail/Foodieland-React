@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+} 
+
+.blog-details {
+    width: 90%;
+    margin: 3rem auto;
+}
+.blog-details-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog-title {
+    font-size: 45px;
+}
+.name-date {
+    margin: 1rem 0;
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chef-name {
+    font-weight: 700;
+}
+.date {
+    color: #00000099;
+}
+.rant {
+    width: 80%;
+    color: #00000099;
+    margin: 1rem 0;
+}
+.blog {
+    width: 100%;
+}
+.blog-img {
+    width: 100%;
+    height: 495px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.blog-post-content {
+    width: 85%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-gap: 1rem;
+}
+.blog-post h3 {
+    font-size: 24px;
+    margin: 0 0 1rem 0;
+}
+.blog-post p {
+    width: 83%;
+    line-height: 25px;
+    color: #00000099;
+}
+.share-social h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem auto;
+    width: 100%;
+}
+.socials i {
+    font-size: 23px;
+}
+
+/* ============== MEDIA QUERIES ============= */
+
+@media only screen and (max-width: 600px) {
+    .rant {
+        width: 100%;
+    }
+
+    .blog-post-content {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .blog-img {
+        height: 100%;
+    }
+
+    .blog-post p {
+        width: 100%;
+    }
+
+    .share-social h3 {
+        text-align: left;
+    }
+
+    .socials {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .rant {
+        width: 100%;
+    }
+
+    .blog-img {
+        height: 100%;
+    }
+
+    .blog-post-content {
+        width: 90%;
+        margin: 4rem auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .rant {
+        width: 80%;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 495px;
+        border-radius: 40px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .blog-img {
+        width: 100%;
+        height: 495px;
+        border-radius: 40px;
+        object-fit: cover;
+    }
+}

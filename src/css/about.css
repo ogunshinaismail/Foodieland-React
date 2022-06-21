@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+} 
+
+.about {
+    width: 90%;
+    margin: 2rem auto;
+}
+.about h1 {
+    font-size: 80px;
+}
+.about p {
+    margin: 2rem 0;
+    font-size: 14px;
+    line-height: 25px;
+    color: #00000099;
+}

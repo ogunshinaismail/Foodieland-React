@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+}
+
+.contact {
+    width: 90%;
+    margin: 4rem auto 9rem auto;
+}
+.contact h3 {
+    font-size: 60px;
+    text-align: center;
+    margin: 6
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.chef-img {
+    background: var(--main-gradient);
+    width: 100%;
+    border-radius: 30px;
+    height: 440px;
+}
+.chef-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 440px;
+}
+.inputs {
+    display: flex;
+    gap: 3rem;
+}
+.inputs input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #0000001a;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    margin-top: .6rem;
+}
+.inputs select {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #0000001a;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    margin-top: .6rem;
+}
+.inputs label {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #00000099;
+}
+.name {
+    flex: 1;
+}
+.email {
+    flex: 1;
+}
+.subject-enquiry {
+    margin: 2rem 0;
+}
+.subject {
+    flex: 1;
+}
+.enquiry {
+    flex: 1;
+}
+.message label {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #00000099;
+}
+.message textarea {
+    width: 100%;
+    border: 1px solid #0000001a;
+    outline: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: .6rem;
+}
+button {
+    background: var(--black);
+    color: white;
+    margin: 1rem 0;
+    border: none;
+    padding: 1.2rem 3rem;
+    border-radius: 16px;
+}

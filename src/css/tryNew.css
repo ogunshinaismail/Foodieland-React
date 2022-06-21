@@ -1,0 +1,154 @@
+:root {
+    --primary-color: #e7fafe;
+    --black: #000;
+    --white: #fff;
+    --main-gradient: linear-gradient(0deg, #e7fafe 0%, #ffffff 100%);
+}
+
+.try-new {
+    margin: 9rem 0;
+}
+
+.try-new-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.try-new-header h2 {
+    width: 507px;
+    font-size: 35px;
+}
+
+.try-new-header p {
+    width: 620px;
+    font-size: 16px;
+    color: #00000099;
+    line-height: 28px;
+}
+
+.try-new-recipes-card {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    width: 90%;
+    margin: auto;
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.new-recipes {
+    width: 280px;
+    padding: 0 1rem 2rem 1rem;
+    margin: 1rem auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.new-recipes img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.new-recipes .like {
+    background: #fffefe;
+    padding: .8rem;
+    border-radius: 50%;
+    color: #dbe2e5;
+    position: absolute;
+    top: .7rem;
+    right: 1.5rem;
+}
+
+.new-recipes .recipe-desc {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.new-recipes-time-prod {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.6rem 0 0 0;
+    gap: 1rem;
+}
+
+.new-recipes-time {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 400;
+    margin-right: .6rem;
+}
+
+.new-recipes-time p {
+    font-size: 12px;
+}
+
+/* ============== MEDIA QUERIES ============= */
+
+@media only screen and (max-width: 600px) {
+    .try-new {
+            width: 100%;
+        }
+    
+        .try-new-header {
+            width: 90%;
+            margin: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .try-new-header h2 {
+            width: 100%;
+            margin: auto;
+        }
+    
+        .try-new-header p {
+            width: 100%;
+            margin: 2rem 0;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+    .try-new {
+            width: 100%;
+        }
+    
+        .try-new-header {
+            width: 90%;
+            margin: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .try-new-header h2 {
+            width: 100%;
+            margin: auto;
+        }
+    
+        .try-new-header p {
+            width: 100%;
+            margin: 2rem 0;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    .recipe-time-prod {
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .recipe-time-prod {
+        margin-top: 3rem;
+    }
+}
+
